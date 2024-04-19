@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.navbar {
+    position: fixed; /* Or 'absolute' depending on your layout */
+    width: 100%;
+    padding: 1%;
+    top: 0;
+    left: 0;
+    z-index: 1050; /* Higher than the carousel's z-index */
+    background-color: transparent !important; /* Overrides Bootstrap's default styling */
+}
+
+.search-bar {
+    border: none;
+    border-bottom: 1px solid gray;
+    border-radius: 0;
+    box-shadow: none;
+    outline: none;
+}
+
+.search-bar:focus {
+    border-bottom: 2px solid #555;
+    outline: none;
+}
+
+.contact-info {
+    flex-grow: 1;  /* Takes up the maximum space available, centering the text */
+    text-align: center; 
+}
+
+.contact-info-link {
+    text-decoration: none;
+    color: black;
+}
+
+.carousel {
+    position: relative;
+    top: 0; /* Adjust if needed */
+    width: 100%;
+    z-index: 1; /* Lower than the navbar */
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%; /* Center vertically */
+    left: 8%; /* Offset from the left side */
+    transform: translateY(-50%); /* Adjust vertical alignment to truly center */
+    z-index: 40;
+    color: #fff;
+    text-align: left;
+    max-width: 60%; /* Optional: prevents text from spreading too far across the image */
+}
+
+.letter-spacing-3 {
+    font-family: 'Roboto Mono', monospace; 
+    letter-spacing: 0.3em; /* Increases the space between characters */
+    text-transform: uppercase; /* Transforms all text to uppercase */
+    font-size: 1.0em; /* Makes the font size larger; adjust as needed */
+    
+}
+
+.Blouses {
+    font-family: "Roboto", sans-serif;
+}
+
+.Discover {
+	background-color: #000000;
+	/* display: inline-block; */
+	cursor: pointer;
+	color: #ffffff;
+	font-family: Arial;
+	font-size: 14px;
+	padding: 12px 45px;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 0.3em;
+	border: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.Discover:hover {
+	background-color: #383838;
+}
+
+.Discover:active {
+	position: relative;
+	top: 1px;
+}
+
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(-200px);  
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0); 
+    }
+}
+
+.fade-in-right {
+    animation: fadeInRight 2s ease-out forwards; 
+}
+
+/* ############################################################ */
+
+.category-sex {
+    background-color: #F8F9FA;
+    padding-top: 24px;
+    padding-left: 24px;
+}
+
+.image-container {
+    position: relative;
+    overflow: hidden; /* Ensures the pseudo-element doesn't extend outside the container */
+}
+
+.image-container img {
+    display: block; /* Removes any space below the image */
+    width: 100%;
+    transition: filter 0.2s ease; /* Smooth transition for the filter */
+}
+
+.image-container::before {
+    content: ""; /* Necessary for pseudo-elements */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.5); /* Light white fog effect */
+    opacity: 0; /* Start fully transparent */
+    transition: opacity 0.3s ease; /* Smooth transition for the opacity */
+    pointer-events: none; /* Allows clicking through the overlay */
+}
+
+.image-container:hover::before {
+    opacity: 1; /* Fully visible when hovered */
+}
+
+.image-container:hover img {
+    filter: blur(3px); /* Apply blur to the image when hovered */
+}
+
+.img-fluid {
+    width: 100%;
+    height: auto;
+    display: block; /* Ensures the image takes up the entire container width */
+}
+
+.centered-text {
+    position: absolute;
+    top: 50%; /* Centers vertically */
+    left: 50%; /* Centers horizontally */
+    transform: translate(-50%, -50%); /* Adjusts the precise centering */
+    color: white; /* Sets text color */
+    font-size: 3.5rem; /* Adjust size as needed */
+    font-weight: bold; /* Makes the font bold */
+    text-shadow: 2px 2px 4px #000000; /* Optional: Adds text shadow for better readability */
+
+}
+
+#fist-img, #sec-img {
+    padding-bottom: 12px;
+    border-radius: 8px;
+}
+
+/* ####################################################### */
+
+.new-arrivals {
+    padding-top: 50px;
+    text-align: center;
+}
