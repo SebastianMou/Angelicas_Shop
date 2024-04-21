@@ -4,19 +4,11 @@
 ## Screenshots
 
 <!-- Correct usage if images are in the same directory as README.md -->
-<p align="center">
-  <img src="Screenshot_2024-04-20_185353.png" alt="Screenshot 1">
-</p>
+![Screenshot 1](Screenshot_2024-04-20_185353.png)
 
-<p align="center">
-  <img src="Screenshot_2024-04-20_185433.png" alt="Screenshot 2">
-</p>
+![Screenshot 2](Screenshot_2024-04-20_185433.png)
 
-<p align="center">
-  <img src="Screenshot_2024-04-20_185507.png" alt="Screenshot 3">
-</p>
-
-
+![Screenshot 3](Screenshot_2024-04-20_185507.png)
 
 <h2>Contents</h2>
 <h3>CSS Techniques</h3>
