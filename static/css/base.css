@@ -32,8 +32,8 @@
 }
 
 .contact-info {
-    flex-grow: 1;  /* Takes up the maximum space available, centering the text */
-    text-align: center; 
+    flex-grow: 1;
+    text-align: center;
 }
 
 .contact-info-link {
@@ -62,58 +62,60 @@
 .sec-carousel-caption {
     position: absolute;
     top: 50%;
-    left: 50%; /* Center horizontally */
-    transform: translate(-50%, -50%); /* Adjust for both horizontal and vertical centering */
+    left: 50%;
+    transform: translate(-50%, -50%);
     z-index: 40;
     color: #fff;
-    text-align: center; /* Center the text inside the div */
+    text-align: center;
     max-width: 70%;
 }
 
 .ther-carousel-caption {
     position: absolute;
     top: 50%;
-    left: 50%; /* Center horizontally */
-    transform: translate(-16%, -84%); /* Adjust for both horizontal and vertical centering */
+    left: 50%;
+    transform: translate(-16%, -84%);
     z-index: 40;
     color: #fff;
-    text-align: center; /* Center the text inside the div */
+    text-align: center;
     max-width: 70%;
 }
 
 @media all and (max-width: 767px) {
     .carousel-item img {
         object-fit: cover;
-        object-position: 70%; 
+        object-position: 70%;
         width: 100%;
         height: 700px;
     }
 
-    .carousel-caption, .sec-carousel-caption, .ther-carousel-caption {
+    .carousel-caption,
+    .sec-carousel-caption,
+    .ther-carousel-caption {
         max-width: 100%;
     }
 
     .sec-carousel-item img {
         object-fit: cover;
-        object-position: center; 
+        object-position: center;
         width: 100%;
-        height: 700px; 
+        height: 700px;
     }
 
     .ther-carousel-item img {
         object-fit: cover;
-        object-position: 40%; 
+        object-position: 40%;
         width: 100%;
-        height: 700px; 
+        height: 700px;
     }
 
 }
 
 .letter-spacing-3 {
-    font-family: 'Roboto Mono', monospace; 
-    letter-spacing: 0.3em; /* Increases the space between characters */
-    text-transform: uppercase; /* Transforms all text to uppercase */
-    font-size: 1.0rem; /* Makes the font size larger; adjust as needed */
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    font-size: 1.0rem;
 }
 
 .Blouses {
@@ -121,17 +123,17 @@
 }
 
 .Discover {
-	background-color: #000000;
-	/* display: inline-block; */
-	cursor: pointer;
-	color: #ffffff;
-	font-family: Arial;
-	font-size: 14px;
-	padding: 12px 45px;
-	text-decoration: none;
-	text-transform: uppercase;
-	letter-spacing: 0.3em;
-	border: none;
+    background-color: #000000;
+    /* display: inline-block; */
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 14px;
+    padding: 12px 45px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    border: none;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
@@ -156,27 +158,28 @@
 }
 
 .Discover:hover {
-	background-color: #383838;
+    background-color: #383838;
 }
 
 .Discover:active {
-	position: relative;
-	top: 1px;
+    position: relative;
+    top: 1px;
 }
 
 @keyframes fadeInRight {
     0% {
         opacity: 0;
-        transform: translateX(-200px);  
+        transform: translateX(-200px);
     }
+
     100% {
         opacity: 1;
-        transform: translateX(0); 
+        transform: translateX(0);
     }
 }
 
 .fade-in-right {
-    animation: fadeInRight 2s ease-out forwards; 
+    animation: fadeInRight 2s ease-out forwards;
 }
 
 /* ############################################################ */
@@ -199,56 +202,56 @@
 
 .image-container {
     position: relative;
-    overflow: hidden; /* Ensures the pseudo-element doesn't extend outside the container */
+    overflow: hidden;
 }
 
 .image-container img {
-    display: block; /* Removes any space below the image */
+    display: block;
     width: 100%;
-    transition: filter 0.2s ease; /* Smooth transition for the filter */
+    transition: filter 0.2s ease;
 }
 
 .image-container::before {
-    content: ""; /* Necessary for pseudo-elements */
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(255, 255, 255, 0.5); /* Light white fog effect */
-    opacity: 0; /* Start fully transparent */
-    transition: opacity 0.3s ease; /* Smooth transition for the opacity */
-    pointer-events: none; /* Allows clicking through the overlay */
+    background: rgba(255, 255, 255, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
 }
 
 .image-container:hover::before {
-    opacity: 1; /* Fully visible when hovered */
+    opacity: 1;
 }
 
 .image-container:hover img {
-    filter: blur(3px); /* Apply blur to the image when hovered */
+    filter: blur(3px);
 }
 
 .img-fluid {
     width: 100%;
     height: auto;
-    display: block; /* Ensures the image takes up the entire container width */
+    display: block;
 }
 
 .centered-text {
     position: absolute;
-    top: 50%; /* Centers vertically */
-    left: 50%; /* Centers horizontally */
-    transform: translate(-50%, -50%); /* Adjusts the precise centering */
-    color: white; /* Sets text color */
-    font-size: 3.5rem; /* Adjust size as needed */
-    font-weight: bold; /* Makes the font bold */
-    text-shadow: 2px 2px 4px #000000; /* Optional: Adds text shadow for better readability */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #000000;
 
 }
 
-
-#fist-img, #sec-img {
+#fist-img,
+#sec-img {
     padding-bottom: 12px;
     border-radius: 8px;
 }
@@ -262,11 +265,11 @@
 
 /* ####################################################### */
 
-.time-img  {
-    width: 100%;  /* Full width of the container */
-    height: 550px; /* Height greater than the container */
-    object-fit: cover; /* Crop and cover the area of the container */
-    object-position: center; /* Center the image in the container */
+.time-img {
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+    object-position: center;
 }
 
 .Deal-of-the-week-img {
@@ -285,15 +288,16 @@
 }
 
 @media all and (max-width: 767px) {
-    .time-img {  /* Correctly target the image itself */
-        object-position: right; /* Focus on the right part of the image */
+    .time-img {
+        object-position: right;
     }
+
     .Deal-of-the-week {
         position: absolute;
-        top: 11%;          /* Adjusted to be closer to the top */
-        left: 50%;         /* Center horizontally */
-        transform: translateX(-50%); /* Correct horizontal centering */
-        width: 100%;       /* Full width to match mobile responsiveness */
+        top: 11%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
         background: rgba(255, 255, 255, 0.8);
         padding: 20px;
         box-sizing: border-box;
@@ -302,32 +306,30 @@
 
 /* #################################################################### */
 
-
 .footer {
-    background-color: #f8f9fa; /* light grey background, change as needed */
-    color: #212529; /* dark grey text, change as needed */
+    background-color: #f8f9fa;
+    color: #212529;
     padding: 20px 0;
     font-size: 14px;
-    border-top: 1px solid #e9ecef; /* subtle top border */
+    border-top: 1px solid #e9ecef;
 }
 
 .footer .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap; /* ensure responsiveness */
     padding: 0 15px;
 }
 
 .footer p {
-    margin: 0; /* remove default margin */
+    margin: 0;
 }
 
 .footer-links {
-    list-style: none; /* remove bullet points */
-    padding: 0; /* remove default padding */
-    display: flex; /* horizontal layout */
-    gap: 10px; /* space between links */
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
 }
 
 .footer-links li {
@@ -335,10 +337,10 @@
 }
 
 .footer-links a {
-    color: #007bff; /* bootstrap primary link color, change as needed */
-    text-decoration: none; /* no underline */
+    color: #007bff;
+    text-decoration: none;
 }
 
 .footer-links a:hover {
-    text-decoration: underline; /* underline on hover for better accessibility */
+    text-decoration: underline;
 }
