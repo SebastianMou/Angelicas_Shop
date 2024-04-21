@@ -1,6 +1,18 @@
 <h1>Web Design Essentials Repository</h1>
 <p>This repository contains a collection of web design essentials covering various CSS techniques, HTML structures, and JavaScript functionalities aimed at improving user interface design and interactivity.</p>
 
+## Screenshots
+
+### Screenshot 1
+![Screenshot 1](images/Screenshot_2024-04-20_185353.png)
+
+### Screenshot 2
+![Screenshot 2](images/Screenshot_2024-04-20_185433.png)
+
+### Screenshot 3
+![Screenshot 3](images/Screenshot_2024-04-20_185507.png)
+
+
 <h2>Contents</h2>
 <h3>CSS Techniques</h3>
 <ul>
