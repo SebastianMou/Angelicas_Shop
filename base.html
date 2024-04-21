@@ -11,9 +11,9 @@
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: transparent;">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"><b>Angelica</b></a>
+          <a class="navbar-brand" style="letter-spacing: 0.3em;" href="#"><b>Gica</b></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -49,7 +49,6 @@
                 </a>
             </span>
             
-
             <form class="d-flex">
               <input class="search-bar form-control me-2" style="background: transparent;" type="search" placeholder="Search" aria-label="Search">
               <button class="btn btn-line" type="submit">
@@ -69,22 +68,24 @@
                 <div class="carousel-caption">
                     <p class="subtitle letter-spacing-3 fw-light text-dark mb-3 fade-in-right"><b>Our all-time favourites OUR</b></p>
                     <h2 class="display-1 mb-3 text-dark Blouses p-2 fade-in-right" style="line-height: 1;"><b>Blouses &amp; Tops</b></h2>
-                    <p class="text-muted mb-5 fade-in-right" style="font-size: larger;"><b>The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs, pit</b></p>
+                    <p class="text-muted mb-5 fade-in-right bedding" style="font-size: larger;">The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs, pit</p>
                     <button class="Discover fade-in-right" type="button"><b>Discover More</b></button>
                 </div>
             </div>
-            <div class="carousel-item">
-                <img src="https://picsum.photos/800/300" class="d-block w-100" alt="...">
-                <div class="carousel-caption">
-                    <h5>Second Slide Label</h5>
-                    <p>Some description for the second slide.</p>
+            <div class="carousel-item sec-carousel-item">
+                <img src="https://varkala-react-2.vercel.app/_next/image?url=%2Fimg%2Fphoto%2Fhome-2-plain.jpg&w=1200&q=75" class="d-block w-100" alt="...">
+                <div class="sec-carousel-caption">
+                    <p class="subtitle letter-spacing-3 fw-light text-dark mb-3 fade-in-right"><b>BLUE & WHITE</b></p>
+                    <h2 class="display-1 mb-3 fade-in-right" style="line-height: 1; color: black;">Linen and denim</h2>
+                    <button class="Discover fade-in-right" type="button"><b>Start Shoping</b></button>
                 </div>
             </div>
-            <div class="carousel-item">
-                <img src="https://picsum.photos/800/300" class="d-block w-100" alt="...">
-                <div class="carousel-caption">
-                    <h5>Third Slide Label</h5>
-                    <p>Some description for the third slide.</p>
+            <div class="carousel-item ther-carousel-item">
+                <img src="https://varkala-react-2.vercel.app/_next/image?url=%2Fimg%2Fphoto%2Fhome-3-plain.jpg&w=1200&q=75" class="d-block w-100" alt="...">
+                <div class="ther-carousel-caption">
+                    <p class="subtitle letter-spacing-3 fw-light text-dark text-primary mb-4 fade-in-right">Sneakers</p>
+                    <h2 class="display-1 mb-5 text-dark fade-in-right" style="line-height: 1;">For every occassion</h2>
+                    <button class="Discover fade-in-right" type="button"><b>Start Shoping</b></button>
                 </div>
             </div>
         </div>
@@ -97,8 +98,9 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
+
     <div class="category-sex">
-        <div class="container" style="width: 50%;">
+        <div class="container container-of-sex">
             <div class="row">
                 <div class="col-12 col-md-6">
                     <a href="">
@@ -127,39 +129,562 @@
 
     <div class="container">
       <div class="row">
-          <div class="col-md-4">
-              <div class="card bg-dark text-white">
-                  <img src="https://via.placeholder.com/150" class="card-img" alt="Card image">
-                  <div class="card-img-overlay">
-                      <h5 class="card-title">Card title 1</h5>
-                      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                  </div>
-              </div>
-          </div>
-          <div class="col-md-4">
-              <div class="card bg-dark text-white">
-                  <img src="https://via.placeholder.com/150" class="card-img" alt="Card image">
-                  <div class="card-img-overlay">
-                      <h5 class="card-title">Card title 2</h5>
-                      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                      <p class="card-text"><small class="text-muted">Last updated 5 mins ago</small></p>
-                  </div>
-              </div>
-          </div>
-          <div class="col-md-4">
-              <div class="card bg-dark text-white">
-                  <img src="https://via.placeholder.com/150" class="card-img" alt="Card image">
-                  <div class="card-img-overlay">
-                      <h5 class="card-title">Card title 3</h5>
-                      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                      <p class="card-text"><small class="text-muted">Last updated 10 mins ago</small></p>
-                  </div>
-              </div>
-          </div>
+            <div class="col-sm-6 col-md-3 p-2">
+                <div class="card bg-dark text-white">
+                    <img src="https://varkala-react-2.vercel.app/_next/image?url=%2Fimg%2Fproduct%2F0144074800_1_1_1.jpg&w=1200&q=75" class="card-img" alt="Card image">
+                    <div class="card-img-overlay">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                                fill="#BCAC76" stroke="black" stroke-width="0.5" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                                fill="#BCAC76" stroke="black" stroke-width="0.5" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                                fill="#BCAC76" stroke="black" stroke-width="0.5" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                                fill="#BCAC76" stroke="black" stroke-width="0.5" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                                fill="#BCAC76" stroke="black" stroke-width="0.5" />
+                        </svg>
+                        
+                    </div>
+                    <div class="card-img-overlay align-items-end d-flex">
+                        <div class="d-flex w-100">
+                            <h5 style="color: black;" class="card-title">Card title 1</h5>
+                            <button type="button" class="btn btn-link ms-auto" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-arrows-fullscreen" viewBox="0 0 16 16">
+                                    <path fill="black" fill-rule="evenodd" d="M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707m4.344 0a.5.5 0 0 1 .707 0l4.096 4.096V11.5a.5.5 0 1 1 1 0v3.975a.5.5 0 0 1-.5.5H11.5a.5.5 0 0 1 0-1h2.768l-4.096-4.096a.5.5 0 0 1 0-.707m0-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707m-4.344 0a.5.5 0 0 1-.707 0L1.025 1.732V4.5a.5.5 0 0 1-1 0V.525a.5.5 0 0 1 .5-.5H4.5a.5.5 0 0 1 0 1H1.732l4.096 4.096a.5.5 0 0 1 0 .707"/>
+                                  </svg>
+                            </button>
+
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3 p-2">
+                <div class="card bg-dark text-white">
+                    <img src="https://varkala-react-2.vercel.app/_next/image?url=%2Fimg%2Fproduct%2F0144074800_1_1_1.jpg&w=1200&q=75" class="card-img" alt="Card image">
+                    <div class="card-img-overlay">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                                fill="#BCAC76" stroke="black" stroke-width="0.5" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                                fill="#BCAC76" stroke="black" stroke-width="0.5" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                                fill="#BCAC76" stroke="black" stroke-width="0.5" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                                fill="#BCAC76" stroke="black" stroke-width="0.5" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                                fill="#BCAC76" stroke="black" stroke-width="0.5" />
+                        </svg>
+                        
+                    </div>
+                    <div class="card-img-overlay align-items-end d-flex">
+                        <div class="d-flex w-100">
+                            <h5 style="color: black;" class="card-title">Card title 1</h5>
+                            <button type="button" class="btn btn-link ms-auto" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-arrows-fullscreen" viewBox="0 0 16 16">
+                                    <path fill="black" fill-rule="evenodd" d="M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707m4.344 0a.5.5 0 0 1 .707 0l4.096 4.096V11.5a.5.5 0 1 1 1 0v3.975a.5.5 0 0 1-.5.5H11.5a.5.5 0 0 1 0-1h2.768l-4.096-4.096a.5.5 0 0 1 0-.707m0-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707m-4.344 0a.5.5 0 0 1-.707 0L1.025 1.732V4.5a.5.5 0 0 1-1 0V.525a.5.5 0 0 1 .5-.5H4.5a.5.5 0 0 1 0 1H1.732l4.096 4.096a.5.5 0 0 1 0 .707"/>
+                                  </svg>
+                            </button>
+
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3 p-2">
+                <div class="card bg-dark text-white">
+                    <img src="https://varkala-react-2.vercel.app/_next/image?url=%2Fimg%2Fproduct%2F0144074800_1_1_1.jpg&w=1200&q=75" class="card-img" alt="Card image">
+                    <div class="card-img-overlay">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                                fill="#BCAC76" stroke="black" stroke-width="0.5" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                                fill="#BCAC76" stroke="black" stroke-width="0.5" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                                fill="#BCAC76" stroke="black" stroke-width="0.5" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                                fill="#BCAC76" stroke="black" stroke-width="0.5" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                                fill="#BCAC76" stroke="black" stroke-width="0.5" />
+                        </svg>
+                        
+                    </div>
+                    <div class="card-img-overlay align-items-end d-flex">
+                        <div class="d-flex w-100">
+                            <h5 style="color: black;" class="card-title">Card title 1</h5>
+                            <button type="button" class="btn btn-link ms-auto" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-arrows-fullscreen" viewBox="0 0 16 16">
+                                    <path fill="black" fill-rule="evenodd" d="M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707m4.344 0a.5.5 0 0 1 .707 0l4.096 4.096V11.5a.5.5 0 1 1 1 0v3.975a.5.5 0 0 1-.5.5H11.5a.5.5 0 0 1 0-1h2.768l-4.096-4.096a.5.5 0 0 1 0-.707m0-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707m-4.344 0a.5.5 0 0 1-.707 0L1.025 1.732V4.5a.5.5 0 0 1-1 0V.525a.5.5 0 0 1 .5-.5H4.5a.5.5 0 0 1 0 1H1.732l4.096 4.096a.5.5 0 0 1 0 .707"/>
+                                  </svg>
+                            </button>
+
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3 p-2">
+                <div class="card bg-dark text-white">
+                    <img src="https://varkala-react-2.vercel.app/_next/image?url=%2Fimg%2Fproduct%2F0144074800_1_1_1.jpg&w=1200&q=75" class="card-img" alt="Card image">
+                    <div class="card-img-overlay">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                                fill="#BCAC76" stroke="black" stroke-width="0.5" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                                fill="#BCAC76" stroke="black" stroke-width="0.5" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                                fill="#BCAC76" stroke="black" stroke-width="0.5" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                                fill="#BCAC76" stroke="black" stroke-width="0.5" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                                fill="#BCAC76" stroke="black" stroke-width="0.5" />
+                        </svg>
+                        
+                    </div>
+                    <div class="card-img-overlay align-items-end d-flex">
+                        <div class="d-flex w-100">
+                            <h5 style="color: black;" class="card-title">Card title 1</h5>
+                            <button type="button" class="btn btn-link ms-auto" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-arrows-fullscreen" viewBox="0 0 16 16">
+                                    <path fill="black" fill-rule="evenodd" d="M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707m4.344 0a.5.5 0 0 1 .707 0l4.096 4.096V11.5a.5.5 0 1 1 1 0v3.975a.5.5 0 0 1-.5.5H11.5a.5.5 0 0 1 0-1h2.768l-4.096-4.096a.5.5 0 0 1 0-.707m0-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707m-4.344 0a.5.5 0 0 1-.707 0L1.025 1.732V4.5a.5.5 0 0 1-1 0V.525a.5.5 0 0 1 .5-.5H4.5a.5.5 0 0 1 0 1H1.732l4.096 4.096a.5.5 0 0 1 0 .707"/>
+                                  </svg>
+                            </button>
+
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3 p-2">
+                <div class="card bg-dark text-white">
+                    <img src="https://varkala-react-2.vercel.app/_next/image?url=%2Fimg%2Fproduct%2F0144074800_1_1_1.jpg&w=1200&q=75" class="card-img" alt="Card image">
+                    <div class="card-img-overlay">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                                fill="#BCAC76" stroke="black" stroke-width="0.5" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                                fill="#BCAC76" stroke="black" stroke-width="0.5" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                                fill="#BCAC76" stroke="black" stroke-width="0.5" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                                fill="#BCAC76" stroke="black" stroke-width="0.5" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                                fill="#BCAC76" stroke="black" stroke-width="0.5" />
+                        </svg>
+                        
+                    </div>
+                    <div class="card-img-overlay align-items-end d-flex">
+                        <div class="d-flex w-100">
+                            <h5 style="color: black;" class="card-title">Card title 1</h5>
+                            <button type="button" class="btn btn-link ms-auto" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-arrows-fullscreen" viewBox="0 0 16 16">
+                                    <path fill="black" fill-rule="evenodd" d="M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707m4.344 0a.5.5 0 0 1 .707 0l4.096 4.096V11.5a.5.5 0 1 1 1 0v3.975a.5.5 0 0 1-.5.5H11.5a.5.5 0 0 1 0-1h2.768l-4.096-4.096a.5.5 0 0 1 0-.707m0-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707m-4.344 0a.5.5 0 0 1-.707 0L1.025 1.732V4.5a.5.5 0 0 1-1 0V.525a.5.5 0 0 1 .5-.5H4.5a.5.5 0 0 1 0 1H1.732l4.096 4.096a.5.5 0 0 1 0 .707"/>
+                                  </svg>
+                            </button>
+
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3 p-2">
+                <div class="card bg-dark text-white">
+                    <img src="https://varkala-react-2.vercel.app/_next/image?url=%2Fimg%2Fproduct%2F0144074800_1_1_1.jpg&w=1200&q=75" class="card-img" alt="Card image">
+                    <div class="card-img-overlay">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                                fill="#BCAC76" stroke="black" stroke-width="0.5" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                                fill="#BCAC76" stroke="black" stroke-width="0.5" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                                fill="#BCAC76" stroke="black" stroke-width="0.5" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                                fill="#BCAC76" stroke="black" stroke-width="0.5" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                                fill="#BCAC76" stroke="black" stroke-width="0.5" />
+                        </svg>
+                        
+                    </div>
+                    <div class="card-img-overlay align-items-end d-flex">
+                        <div class="d-flex w-100">
+                            <h5 style="color: black;" class="card-title">Card title 1</h5>
+                            <button type="button" class="btn btn-link ms-auto" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-arrows-fullscreen" viewBox="0 0 16 16">
+                                    <path fill="black" fill-rule="evenodd" d="M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707m4.344 0a.5.5 0 0 1 .707 0l4.096 4.096V11.5a.5.5 0 1 1 1 0v3.975a.5.5 0 0 1-.5.5H11.5a.5.5 0 0 1 0-1h2.768l-4.096-4.096a.5.5 0 0 1 0-.707m0-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707m-4.344 0a.5.5 0 0 1-.707 0L1.025 1.732V4.5a.5.5 0 0 1-1 0V.525a.5.5 0 0 1 .5-.5H4.5a.5.5 0 0 1 0 1H1.732l4.096 4.096a.5.5 0 0 1 0 .707"/>
+                                  </svg>
+                            </button>
+
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3 p-2">
+                <div class="card bg-dark text-white">
+                    <img src="https://varkala-react-2.vercel.app/_next/image?url=%2Fimg%2Fproduct%2F0144074800_1_1_1.jpg&w=1200&q=75" class="card-img" alt="Card image">
+                    <div class="card-img-overlay">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                                fill="#BCAC76" stroke="black" stroke-width="0.5" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                                fill="#BCAC76" stroke="black" stroke-width="0.5" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                                fill="#BCAC76" stroke="black" stroke-width="0.5" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                                fill="#BCAC76" stroke="black" stroke-width="0.5" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                                fill="#BCAC76" stroke="black" stroke-width="0.5" />
+                        </svg>
+                        
+                    </div>
+                    <div class="card-img-overlay align-items-end d-flex">
+                        <div class="d-flex w-100">
+                            <h5 style="color: black;" class="card-title">Card title 1</h5>
+                            <button type="button" class="btn btn-link ms-auto" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-arrows-fullscreen" viewBox="0 0 16 16">
+                                    <path fill="black" fill-rule="evenodd" d="M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707m4.344 0a.5.5 0 0 1 .707 0l4.096 4.096V11.5a.5.5 0 1 1 1 0v3.975a.5.5 0 0 1-.5.5H11.5a.5.5 0 0 1 0-1h2.768l-4.096-4.096a.5.5 0 0 1 0-.707m0-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707m-4.344 0a.5.5 0 0 1-.707 0L1.025 1.732V4.5a.5.5 0 0 1-1 0V.525a.5.5 0 0 1 .5-.5H4.5a.5.5 0 0 1 0 1H1.732l4.096 4.096a.5.5 0 0 1 0 .707"/>
+                                  </svg>
+                            </button>
+
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3 p-2">
+                <div class="card bg-dark text-white">
+                    <img src="https://varkala-react-2.vercel.app/_next/image?url=%2Fimg%2Fproduct%2F0144074800_1_1_1.jpg&w=1200&q=75" class="card-img" alt="Card image">
+                    <div class="card-img-overlay">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                                fill="#BCAC76" stroke="black" stroke-width="0.5" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                                fill="#BCAC76" stroke="black" stroke-width="0.5" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                                fill="#BCAC76" stroke="black" stroke-width="0.5" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                                fill="#BCAC76" stroke="black" stroke-width="0.5" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                                fill="#BCAC76" stroke="black" stroke-width="0.5" />
+                        </svg>
+                        
+                    </div>
+                    <div class="card-img-overlay align-items-end d-flex">
+                        <div class="d-flex w-100">
+                            <h5 style="color: black;" class="card-title">Card title 1</h5>
+                            <button type="button" class="btn btn-link ms-auto" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-arrows-fullscreen" viewBox="0 0 16 16">
+                                    <path fill="black" fill-rule="evenodd" d="M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707m4.344 0a.5.5 0 0 1 .707 0l4.096 4.096V11.5a.5.5 0 1 1 1 0v3.975a.5.5 0 0 1-.5.5H11.5a.5.5 0 0 1 0-1h2.768l-4.096-4.096a.5.5 0 0 1 0-.707m0-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707m-4.344 0a.5.5 0 0 1-.707 0L1.025 1.732V4.5a.5.5 0 0 1-1 0V.525a.5.5 0 0 1 .5-.5H4.5a.5.5 0 0 1 0 1H1.732l4.096 4.096a.5.5 0 0 1 0 .707"/>
+                                  </svg>
+                            </button>
+
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
       </div>
   </div>
-  
+
+  <hr>
+
+</style>
+  <div class="Deal-of-the-week-img">
+    <img class="time-img" src="https://varkala-react-2.vercel.app/_next/image?url=%2Fimg%2Fphoto%2Fdeal-plain.jpg&w=1200&q=75" alt="">
+    
+    <div class="Deal-of-the-week">
+        <p class="subtitle letter-spacing-3  mb-3 text-danger"><b>Deal of the week</b></p>
+        <h3 class="h1">Oversized denim jacket</h3>
+        <p class="text-muted"><del class="me-3"><b>$129.00</b></del><span><b>$79.00</b></span></p>
+
+        <div class="bg-white px-5 py-4 shadow mb-4" id="countdown">
+            <div class="row justify-content-between">
+                <div class="col-6 col-sm-3 text-center mb-4 mb-sm-0">
+                    <h6 class="h4 mb-2" id="days">14</h6><span class="text-muted">days</span>
+                </div>
+                <div class="col-6 col-sm-3 text-center mb-4 mb-sm-0">
+                    <h6 class="h4 mb-2" id="hours">22</h6><span class="text-muted">hours</span>
+                </div>
+                <div class="col-6 col-sm-3 text-center mb-4 mb-sm-0">
+                    <h6 class="h4 mb-2" id="minutes">47</h6><span class="text-muted">minutes</span>
+                </div>
+                <div class="col-6 col-sm-3 text-center mb-4 mb-sm-0">
+                    <h6 class="h4 mb-2" id="seconds">34</h6><span class="text-muted">seconds</span>
+                </div>
+            </div>
+        </div>
+        <button class="Discover fade-in-right" type="button"><b>Shop Now</b></button>
+    </div>
+</div>
+<br><br>
+<div class="py-6 container">
+    <h1 class="text-uppercase text-primary letter-spacing-3 mb-3"><b style="color: #BCAC76;">Our History</b></h1>
+    <p class="lead text-muted mb-4"><b>One morning, when Gregor Samsa woke from troubled dreams, he found himself
+        transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a
+        little he could see his brown belly, slightly domed and divided by arches into stiff sections</b> </p>
+    <p class="lead text-muted mb-5"><b>He must have tried it a hundred times, shut his eyes so that he wouldn't have to
+        look at the floundering legs, and only stopped when he began to feel a mild, dull pain there that he had never
+        felt before.</b></p>
+</div>
+<br>
+
+<div style="background-color: rgba(128, 128, 128, 0.043);" class="py-5 py-lg-6 bg-gray-100">
+    <div class="container">
+        <div class="row">
+            <div class="py-4 service-column col-lg-3 col-sm-6 d-flex">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-truck" viewBox="0 0 16 16">
+                    <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5zm1.294 7.456A2 2 0 0 1 4.732 11h5.536a2 2 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456M12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2"/>
+                  </svg>
+                <div style="padding-left: 23px;" class="service-text">
+                    <h6 style="font-weight: bold;" class="text-sm mb-1">Free shipping &amp; return</h6>
+                    <p class="text-muted fw-light text-sm mb-0">Free Shipping over $300</p>
+                </div>
+            </div>
+            <div class="py-4 service-column col-lg-3 col-sm-6 d-flex">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-cash-coin" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M11 15a4 4 0 1 0 0-8 4 4 0 0 0 0 8m5-4a5 5 0 1 1-10 0 5 5 0 0 1 10 0"/>
+                    <path d="M9.438 11.944c.047.596.518 1.06 1.363 1.116v.44h.375v-.443c.875-.061 1.386-.529 1.386-1.207 0-.618-.39-.936-1.09-1.1l-.296-.07v-1.2c.376.043.614.248.671.532h.658c-.047-.575-.54-1.024-1.329-1.073V8.5h-.375v.45c-.747.073-1.255.522-1.255 1.158 0 .562.378.92 1.007 1.066l.248.061v1.272c-.384-.058-.639-.27-.696-.563h-.668zm1.36-1.354c-.369-.085-.569-.26-.569-.522 0-.294.216-.514.572-.578v1.1zm.432.746c.449.104.655.272.655.569 0 .339-.257.571-.709.614v-1.195z"/>
+                    <path d="M1 0a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h4.083q.088-.517.258-1H3a2 2 0 0 0-2-2V3a2 2 0 0 0 2-2h10a2 2 0 0 0 2 2v3.528c.38.34.717.728 1 1.154V1a1 1 0 0 0-1-1z"/>
+                    <path d="M9.998 5.083 10 5a2 2 0 1 0-3.132 1.65 6 6 0 0 1 3.13-1.567"/>
+                  </svg>
+                <div style="padding-left: 23px;" class="service-text">
+                    <h6 style="font-weight: bold;" class="text-sm mb-1">Money back guarantee</h6>
+                    <p class="text-muted fw-light text-sm mb-0">30 Days Money Back Guarantee</p>
+                </div>
+            </div>
+            <div class="py-4 service-column col-lg-3 col-sm-6 d-flex">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-coin" viewBox="0 0 16 16">
+                    <path d="M5.5 9.511c.076.954.83 1.697 2.182 1.785V12h.6v-.709c1.4-.098 2.218-.846 2.218-1.932 0-.987-.626-1.496-1.745-1.76l-.473-.112V5.57c.6.068.982.396 1.074.85h1.052c-.076-.919-.864-1.638-2.126-1.716V4h-.6v.719c-1.195.117-2.01.836-2.01 1.853 0 .9.606 1.472 1.613 1.707l.397.098v2.034c-.615-.093-1.022-.43-1.114-.9zm2.177-2.166c-.59-.137-.91-.416-.91-.836 0-.47.345-.822.915-.925v1.76h-.005zm.692 1.193c.717.166 1.048.435 1.048.91 0 .542-.412.914-1.135.982V8.518z"/>
+                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+                    <path d="M8 13.5a5.5 5.5 0 1 1 0-11 5.5 5.5 0 0 1 0 11m0 .5A6 6 0 1 0 8 2a6 6 0 0 0 0 12"/>
+                  </svg>
+                <div style="padding-left: 23px;" class="service-text">
+                    <h6 style="font-weight: bold;" class="text-sm mb-1">Best prices</h6>
+                    <p class="text-muted fw-light text-sm mb-0">Always the best prices</p>
+                </div>
+            </div>
+            <div class="py-4 service-column col-lg-3 col-sm-6 d-flex">
+                <svg  xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-patch-question" viewBox="0 0 16 16">
+                    <path d="M8.05 9.6c.336 0 .504-.24.554-.627.04-.534.198-.815.847-1.26.673-.475 1.049-1.09 1.049-1.986 0-1.325-.92-2.227-2.262-2.227-1.02 0-1.792.492-2.1 1.29A1.7 1.7 0 0 0 6 5.48c0 .393.203.64.545.64.272 0 .455-.147.564-.51.158-.592.525-.915 1.074-.915.61 0 1.03.446 1.03 1.084 0 .563-.208.885-.822 1.325-.619.433-.926.914-.926 1.64v.111c0 .428.208.745.585.745"/>
+                    <path d="m10.273 2.513-.921-.944.715-.698.622.637.89-.011a2.89 2.89 0 0 1 2.924 2.924l-.01.89.636.622a2.89 2.89 0 0 1 0 4.134l-.637.622.011.89a2.89 2.89 0 0 1-2.924 2.924l-.89-.01-.622.636a2.89 2.89 0 0 1-4.134 0l-.622-.637-.89.011a2.89 2.89 0 0 1-2.924-2.924l.01-.89-.636-.622a2.89 2.89 0 0 1 0-4.134l.637-.622-.011-.89a2.89 2.89 0 0 1 2.924-2.924l.89.01.622-.636a2.89 2.89 0 0 1 4.134 0l-.715.698a1.89 1.89 0 0 0-2.704 0l-.92.944-1.32-.016a1.89 1.89 0 0 0-1.911 1.912l.016 1.318-.944.921a1.89 1.89 0 0 0 0 2.704l.944.92-.016 1.32a1.89 1.89 0 0 0 1.912 1.911l1.318-.016.921.944a1.89 1.89 0 0 0 2.704 0l.92-.944 1.32.016a1.89 1.89 0 0 0 1.911-1.912l-.016-1.318.944-.921a1.89 1.89 0 0 0 0-2.704l-.944-.92.016-1.32a1.89 1.89 0 0 0-1.912-1.911z"/>
+                    <path d="M7.001 11a1 1 0 1 1 2 0 1 1 0 0 1-2 0"/>
+                    </svg>
+                <div style="padding-left: 23px;" class="service-text">
+                    <h6 style="font-weight: bold;" class="text-sm mb-1">020-800-456-747</h6>
+                    <p class="text-muted fw-light text-sm mb-0">24/7 Available Support</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <p>© 2024 Gica. All rights reserved.</p>
+        <ul class="footer-links">
+            <li><a href="#terms">Terms & Conditions</a></li>
+            <li><a href="#privacy">Privacy & Cookies</a></li>
+            <li><a href="#accessibility">Accessibility</a></li>
+            <li><a href="#data-promise">Customer Data Promise</a></li>
+        </ul>
+    </div>
+</footer>
+
+  <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal 1</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div class="row">
+                <div class="col">
+                    <div class="modal-body">
+                        <img class="img-fluid" style="width: 100%;" src="https://varkala-react-2.vercel.app/_next/image?url=%2Fimg%2Fproduct%2F0144074800_1_1_1.jpg&w=1200&q=75" alt="">
+                        <div class="d-flex">
+                            <img class="img-thumbnail" style="width: 10%; height: auto;" src="https://varkala-react-2.vercel.app/_next/image?url=%2Fimg%2Fproduct%2F0144074800_1_1_1.jpg&w=1200&q=75" alt="">
+                            <img class="img-thumbnail" style="width: 10%; height: auto;" src="https://varkala-react-2.vercel.app/_next/image?url=%2Fimg%2Fproduct%2F0144074800_1_1_1.jpg&w=1200&q=75" alt="">
+                            <img class="img-thumbnail" style="width: 10%; height: auto;" src="https://varkala-react-2.vercel.app/_next/image?url=%2Fimg%2Fproduct%2F0144074800_1_1_1.jpg&w=1200&q=75" alt="">
+                            <img class="img-thumbnail" style="width: 10%; height: auto;" src="https://varkala-react-2.vercel.app/_next/image?url=%2Fimg%2Fproduct%2F0144074800_1_1_1.jpg&w=1200&q=75" alt="">
+                            <img class="img-thumbnail" style="width: 10%; height: auto;" src="https://varkala-react-2.vercel.app/_next/image?url=%2Fimg%2Fproduct%2F0144074800_1_1_1.jpg&w=1200&q=75" alt="">
+                        </div>
+                      </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <h2 class="mb-4 mt-4 mt-lg-1">White Tee</h2>
+                    <div class="d-flex flex-column flex-sm-row align-items-sm-center justify-content-sm-between mb-4">
+                        <ul class="list-inline mb-2 mb-sm-0">
+                            <li style="font-family: 'Roboto Mono', monospace; " class="list-inline-item h4 fw-light mb-0">$40.00</li>
+                            <li style="font-family: 'Roboto Mono', monospace; " class="list-inline-item text-muted fw-light"><del>$90.00</del></li>
+                        </ul>
+                        <div class="d-flex align-items-center text-sm">
+                            <div class="me-2 mb-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                                        fill="#BCAC76" stroke="black" stroke-width="0.5" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                                        fill="#BCAC76" stroke="black" stroke-width="0.5" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                                        fill="#BCAC76" stroke="black" stroke-width="0.5" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                                        fill="#BCAC76" stroke="black" stroke-width="0.5" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                                        fill="#BCAC76" stroke="black" stroke-width="0.5" />
+                                </svg>
+                            </div>
+                            <span class="text-muted text-uppercase" style="letter-spacing: .15em;">25 reviews</span>
+                        </div>
+                    </div>
+                    <p class="mb-4 text-muted">Samsa was a travelling salesman - and above it there hung a picture that he had recently cut out of an illustrated magazine and housed in a nice, gilded frame. The image depicted a serene landscape, a vivid contrast to the cluttered, cramped room that served as his living quarters. Despite the small space, this picture was a gateway to another world for Samsa, one where he could escape the monotony and pressures of his daily routine.
+
+                        This image, so small yet so significant, was Samsa's token of hope. It symbolized a future he yearned to grasp, a subtle reassurance that life held more than just the wearisome pattern of selling, earning, and enduring. Each glance at the picture reinforced his resolve to someday make that world his reality, to transform the still life into his life.</p>
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                <path fill="#BCAC76" d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+                              </svg>
+                            <a style="text-decoration: none; color: #BCAC76;" href="">Add to wishlist</a>
+                        </div>
+                        <div class="col-auto ms-auto">
+                            <a style="text-decoration: none;" href="">
+                                <svg style="color: black;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                                  </svg>
+                            </a>
+                            <a style="text-decoration: none;" href="">
+                                <svg style="color: black;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                                    <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+                                  </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <br>
+                    <button class="Discover form-control" type="button"><b>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+                          </svg> Chat With Sellter
+                    </b></button>
+                    <br>
+                    <ul class="list-unstyled">
+                        <li><strong>Category:</strong> <a class="text-muted" href="/tops-blouses">Tops &amp; blouses</a></li>
+                        <li><strong>Tags:</strong> <a class="text-muted" href="#">Leisure</a>, <a class="text-muted" href="#">Elegant</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <script>
+        // Set the date we're counting down to
+        var countDownDate = new Date("Dec 31, 2024 15:37:25").getTime();
+
+        // Update the count down every 1 second
+        var x = setInterval(function() {
+
+            // Get today's date and time
+            var now = new Date().getTime();
+            
+            // Find the distance between now and the count down date
+            var distance = countDownDate - now;
+            
+            // Time calculations for days, hours, minutes, and seconds
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+            
+            // Display the result in the element with id
+            document.getElementById("days").innerHTML = days;
+            document.getElementById("hours").innerHTML = hours;
+            document.getElementById("minutes").innerHTML = minutes;
+            document.getElementById("seconds").innerHTML = seconds;
+            
+            // If the count down is finished, write some text
+            if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("countdown").innerHTML = "EXPIRED";
+            }
+        }, 1000);
+    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>

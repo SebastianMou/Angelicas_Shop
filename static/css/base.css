@@ -1,14 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+/* Base navbar style */
 .navbar {
-    position: fixed; /* Or 'absolute' depending on your layout */
+    position: fixed;
     width: 100%;
     padding: 1%;
     top: 0;
     left: 0;
-    z-index: 1050; /* Higher than the carousel's z-index */
-    background-color: transparent !important; /* Overrides Bootstrap's default styling */
+    z-index: 1050;
+    background-color: transparent;
+}
+
+@media all and (max-width: 767px) {
+    .navbar {
+        background-color: #d5d1d1b9;
+    }
 }
 
 .search-bar {
@@ -36,28 +43,77 @@
 
 .carousel {
     position: relative;
-    top: 0; /* Adjust if needed */
+    top: 0;
     width: 100%;
-    z-index: 1; /* Lower than the navbar */
+    z-index: 1;
 }
 
 .carousel-caption {
     position: absolute;
-    top: 50%; /* Center vertically */
-    left: 8%; /* Offset from the left side */
-    transform: translateY(-50%); /* Adjust vertical alignment to truly center */
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
     z-index: 40;
     color: #fff;
     text-align: left;
-    max-width: 60%; /* Optional: prevents text from spreading too far across the image */
+    max-width: 70%;
+}
+
+.sec-carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust for both horizontal and vertical centering */
+    z-index: 40;
+    color: #fff;
+    text-align: center; /* Center the text inside the div */
+    max-width: 70%;
+}
+
+.ther-carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%; /* Center horizontally */
+    transform: translate(-16%, -84%); /* Adjust for both horizontal and vertical centering */
+    z-index: 40;
+    color: #fff;
+    text-align: center; /* Center the text inside the div */
+    max-width: 70%;
+}
+
+@media all and (max-width: 767px) {
+    .carousel-item img {
+        object-fit: cover;
+        object-position: 70%; 
+        width: 100%;
+        height: 700px;
+    }
+
+    .carousel-caption, .sec-carousel-caption, .ther-carousel-caption {
+        max-width: 100%;
+    }
+
+    .sec-carousel-item img {
+        object-fit: cover;
+        object-position: center; 
+        width: 100%;
+        height: 700px; 
+    }
+
+    .ther-carousel-item img {
+        object-fit: cover;
+        object-position: 40%; 
+        width: 100%;
+        height: 700px; 
+    }
+
 }
 
 .letter-spacing-3 {
     font-family: 'Roboto Mono', monospace; 
     letter-spacing: 0.3em; /* Increases the space between characters */
     text-transform: uppercase; /* Transforms all text to uppercase */
-    font-size: 1.0em; /* Makes the font size larger; adjust as needed */
-    
+    font-size: 1.0rem; /* Makes the font size larger; adjust as needed */
 }
 
 .Blouses {
@@ -77,6 +133,26 @@
 	letter-spacing: 0.3em;
 	border: none;
     transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+@media all and (max-width: 768px) {
+    .Discover {
+        font-size: 9px;
+        padding: 12px 39px;
+    }
+
+    .letter-spacing-3 {
+        font-size: 1.0rem;
+    }
+
+    .Blouses {
+        font-size: 2.6rem;
+    }
+
+    .bedding {
+        font-size: 0.4rem;
+    }
+
 }
 
 .Discover:hover {
@@ -109,6 +185,16 @@
     background-color: #F8F9FA;
     padding-top: 24px;
     padding-left: 24px;
+}
+
+.container-of-sex {
+    width: 50%;
+}
+
+@media all and (max-width: 768px) {
+    .container-of-sex {
+        width: 100%;
+    }
 }
 
 .image-container {
@@ -161,6 +247,7 @@
 
 }
 
+
 #fist-img, #sec-img {
     padding-bottom: 12px;
     border-radius: 8px;
@@ -171,4 +258,87 @@
 .new-arrivals {
     padding-top: 50px;
     text-align: center;
+}
+
+/* ####################################################### */
+
+.time-img  {
+    width: 100%;  /* Full width of the container */
+    height: 550px; /* Height greater than the container */
+    object-fit: cover; /* Crop and cover the area of the container */
+    object-position: center; /* Center the image in the container */
+}
+
+.Deal-of-the-week-img {
+    position: relative;
+    overflow: hidden;
+    height: 550px;
+}
+
+.Deal-of-the-week {
+    position: absolute;
+    top: 22%;
+    left: 0;
+    width: 60%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+@media all and (max-width: 767px) {
+    .time-img {  /* Correctly target the image itself */
+        object-position: right; /* Focus on the right part of the image */
+    }
+    .Deal-of-the-week {
+        position: absolute;
+        top: 11%;          /* Adjusted to be closer to the top */
+        left: 50%;         /* Center horizontally */
+        transform: translateX(-50%); /* Correct horizontal centering */
+        width: 100%;       /* Full width to match mobile responsiveness */
+        background: rgba(255, 255, 255, 0.8);
+        padding: 20px;
+        box-sizing: border-box;
+    }
+}
+
+/* #################################################################### */
+
+
+.footer {
+    background-color: #f8f9fa; /* light grey background, change as needed */
+    color: #212529; /* dark grey text, change as needed */
+    padding: 20px 0;
+    font-size: 14px;
+    border-top: 1px solid #e9ecef; /* subtle top border */
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* ensure responsiveness */
+    padding: 0 15px;
+}
+
+.footer p {
+    margin: 0; /* remove default margin */
+}
+
+.footer-links {
+    list-style: none; /* remove bullet points */
+    padding: 0; /* remove default padding */
+    display: flex; /* horizontal layout */
+    gap: 10px; /* space between links */
+}
+
+.footer-links li {
+    padding: 0;
+}
+
+.footer-links a {
+    color: #007bff; /* bootstrap primary link color, change as needed */
+    text-decoration: none; /* no underline */
+}
+
+.footer-links a:hover {
+    text-decoration: underline; /* underline on hover for better accessibility */
 }
