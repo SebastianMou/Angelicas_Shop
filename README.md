@@ -3,14 +3,19 @@
 
 ## Screenshots
 
-### Screenshot 1
-![Screenshot 1](images/Screenshot_2024-04-20_185353.png)
+<!-- Correct usage if images are in the same directory as README.md -->
+<p align="center">
+  <img src="Screenshot_2024-04-20_185353.png" alt="Screenshot 1">
+</p>
 
-### Screenshot 2
-![Screenshot 2](images/Screenshot_2024-04-20_185433.png)
+<p align="center">
+  <img src="Screenshot_2024-04-20_185433.png" alt="Screenshot 2">
+</p>
 
-### Screenshot 3
-![Screenshot 3](images/Screenshot_2024-04-20_185507.png)
+<p align="center">
+  <img src="Screenshot_2024-04-20_185507.png" alt="Screenshot 3">
+</p>
+
 
 
 <h2>Contents</h2>
